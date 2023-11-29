@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Black+Ops+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@700&display=swap');
+
+        
+/* external css */
+
+        /* nav settings */
+        .navSettings{
+            /* background-color: #ebebf5 ; */
+            text-align: center;
+            padding-top:50px;
+            padding-bottom: 50px;
+        }
+        .navSettings > a{
+            text-decoration: none;
+            margin-left: 20px;
+            color: #000000;
+            font-weight: 500;
+        }
+        .navSettings > a:hover{
+            color: #4161d5;
+            /* background-color: #e98e07; */
+        }
+        /* end of nav settings */
+        
+        .siteBg{
+            /* background-color: #030a1e; */
+            width:100%;
+            height:auto;
+            padding-left: 80px;
+            padding-right: 80px;
+        }
+        .siteTitle{
+            font-size: 80px;
+            font-weight: 800;
+            
+        }
+        .siteTitle1{
+            font-size: 60px;
+            font-weight: 800;
+            
+        }
+        .siteInfo{
+            font-size: 30px;
+            color: rgb(92, 84, 91);
+            padding-left: 80px;
+            padding-right: 80px;
+        }
+        .linkRef{
+            font-size: 10px;
+            color:black;
+            float: right;
+        }
+
+        /* about div settings */
+        .aboutSettings{
+            /* height:300px; */
+            background-color: #e9d5b7;
+            
+            /* overflow: hidden; */
+            
+        }
+        .aboutSettings > p{
+            /* padding:30px; */
+            font-size:20px;
+        }
+        /* End of about div settings */
+
+        /* product div settings */
+        .prodList{
+            position: relative;
+            display:inline-block;
+            width:45%;
+            margin:18px;
+           
+            /* border-radius: 25px; */
+        }
+        .imgBkg{
+            position:relative;
+            height:auto;
+            width:100%;
+            box-shadow: 1px 1px 15px 2px rgb(68, 66, 66);
+            border-radius: 25px;
+        }
+        .prodInfo{
+            position:absolute;
+            top:40px;
+            color:#f4e7e7;
+            left:36%;
+            font-size: 35px;
+            font-weight:800;
+        }
+        .prodList > button{
+            left:41%;
+            /* top:150px; */
+            bottom:50px;
+            position: absolute;
+        }
+
+        .prodList1{
+            position:relative;
+            display:inline-block;
+            width:30%;
+            margin:15px;
+           
+            /* border-radius: 25px; */
+        }
+        
+        .prodInfo1{
+            position:relative;
+            font-size: 15px;
+            font-weight:600;
+        }
+
+        /* end of product div settings */
+        .divSettings{
+            padding:30px;
+            text-align: center;
+            font-family: Helvetica, sans-serif;
+        }
+        .divTitle{
+            font-size: 40px;
+            color:#e98e07;
+            text-shadow: 2px 2px 4px #352b2b ;
+            /* font-family: 'Kanit', sans-serif; */
+            font-family: 'Josefin Sans', sans-serif;
+            
+        }
+        ol,ul{
+            text-align:left;
+        }
+
+        .footerSettings{
+            background-color: #ebebf5 ;
+            /* text-align: center; */
+            margin-top:40px;
+        }
+        
+       
+       
